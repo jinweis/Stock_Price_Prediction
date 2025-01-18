@@ -1,0 +1,16 @@
+name: stock_markets
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - sklearn
+  - tensorflow
+  - keras
+  - pip
+  - pip:
+    - tensorflow-addons
